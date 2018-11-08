@@ -1,0 +1,77 @@
+
+
+--------------------------- github-----------------------
+for download gitbash      (its a command line interface for github)
+https://git-scm.com/download/win
+
+
+
+
+=======================================================================================================
+NOTE:
+	(in oder to add project on git)
+--make a folder and open that folder by right mouse click and select 'git bash here'
+--its open git command line
+--Important:  initilize it by using command
+	git init
+
+--now its ready
+-- add ur all file by using this command
+	git add .
+
+--and commit ur project it is necessary..........
+	git commit -m 'something'
+
+-- login ---
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+	(i think first u should login and then commit ur project)
+
+-------now upload it on git server------------  
+--create new repository on github
+--first ready ur all file and commit it necessary
+	-- git remote add origin https://github.com/lifetoss/responsive.git (jst copy paste)
+	   hit enter
+ 	-- git push -u origin master  (help to push ur all file on github)
+--congrats now ur file is on github
+
+
+-------------------------------------------------------------------------------------------
+	(modified)
+--if we made any change on file 
+--it shows file is modified 
+--show we have to add or commit all file that we modified
+(its done by adding that file my using commind 'git add filename or git add.')
+
+
+-------------------------------------------------------------------------------------
+	(ignore)
+--create gitignore file and add all file that u dont want to add on git
+-- here the process
+	-touch .gitignore
+	-and create another file like log.txt and it on gitignore file
+	 by opening it on any editor and just add the name of that file
+	 on gitignore.  
+	
+	log.txt 	for file 
+	/dir1 		for folder 
+	*.txt		for all txt file 
+
+
+--------------------------------------------------------------------------------------
+	(branch)
+--git checkout login   its helps to create branch
+--file we create on this branch will not show any other barnches
+
+=================================  some command line code   ===============================================================
+1  get --version         	(to see version)
+2  touch .fileName		(to create file)
+2  git add fileName	 	( to add file on git)
+3  git status		 	(it shows file which is added or not)
+4  git rm --cached fileName	(it helps to remove file from git 'untrack')
+5  git add *.html		(add all html file )
+6  git add .			(add all file from that)
+7  git commit -m 'something'	(it is owesome command it helps to add comment and barnch and many more)
+8  git branch login		(create branch login)	
+9  git checkout login		(switched to branch 'login')
+  
